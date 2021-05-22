@@ -1,0 +1,12 @@
+html, body{
+  height: 100%;
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  /* 去掉轮播图Chrom浏览器的错误警告  为什么我滑动的时候还是有错误呢 Unable to preventDefault inside passive event listener invocation.*/
+  touch-action: pan-y;
+}
